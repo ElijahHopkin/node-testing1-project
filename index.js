@@ -202,6 +202,11 @@ class Car {
  * })
  */
 function isEvenNumberAsync(number) {
+  return new Promise( resolve => {
+        resolve (number % 2 === 0);
+
+  }, 7000)
+  
   // ✨ implement
 }
 
